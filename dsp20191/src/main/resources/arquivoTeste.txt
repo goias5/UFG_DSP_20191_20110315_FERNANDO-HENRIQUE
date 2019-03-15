@@ -1,1 +1,8 @@
 Estou escrevendo no arquivo para testar!
+Ao menos
+cinco linhas
+a mais
+foram
+adicionadas no arquivo
+a nova classe para ler o arquivo é uma classe já existente, pois dá na mesma,
+já que já havia uma classe separada e única com a função única de ler o arquivo
