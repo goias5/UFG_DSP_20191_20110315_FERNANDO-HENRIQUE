@@ -1,0 +1,343 @@
+----------------------------
+
+
+Current Element :student
+Matrícula : 201602485
+First Name : AUGUSTO
+Last Name : MOURA
+First Name : augusto.moura
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602487
+First Name : CLEYDSON
+Last Name : JÃNIOR
+First Name : cleydson.junior
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201203663
+First Name : ERIK
+Last Name : COSTA
+First Name : erik.costa
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602489
+First Name : ESTEVÃO
+Last Name : SILVA
+First Name : estevao.silva
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201100315
+First Name : FERNANDO
+Last Name : AFONSO
+First Name : fernando.afonso
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201609821
+First Name : FERNANDO
+Last Name : CALLATA
+First Name : fernando.callta
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201503341
+First Name : GABRIEL
+Last Name : SANTANA
+First Name : gabriel.santana
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602492
+First Name : GABRIEL
+Last Name : MENEZES
+First Name : gabriel.menezes
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602493
+First Name : GUSTAVO
+Last Name : BATISTA
+First Name : gustavo.batista
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602494
+First Name : HYAGO
+Last Name : SOUZA
+First Name : hyago.souza
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602498
+First Name : JOÃO PEDRO
+Last Name : VIEIRA
+First Name : joao.vieira
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602499
+First Name : JOÃO PEDRO
+Last Name : PINHEIRO
+First Name : joao.pinheiro
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201404903
+First Name : JOSIMAR
+Last Name : SANTOS
+First Name : josimar.santos
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  F
+
+Current Element :student
+Matrícula : 201609822
+First Name : KAYO
+Last Name : FREITAS
+First Name : kayo.freitas
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201607109
+First Name : LARISSA
+Last Name : MELO
+First Name : larissa.melo
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201202273
+First Name : LUCAS
+Last Name : SOUSA
+First Name : lucas.sousa
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602502
+First Name : LUCAS
+Last Name : DIAS
+First Name : lucas.dias
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201808740
+First Name : MARCOS
+Last Name : PEREIRA
+First Name : marcos.pereira
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201607112
+First Name : MARCOS RAFAEL
+Last Name : SOUSA
+First Name : marcos.sousa
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201202279
+First Name : MATHEUS
+Last Name : FERNANDES
+First Name : matheus.fernandes
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  F
+
+Current Element :student
+Matrícula : 201602506
+First Name : MURILLO
+Last Name : ANDRADE
+First Name : murilo.andrade
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201611905
+First Name : MURILLO
+Last Name : NUNES
+First Name : murillo.nunes
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602509
+First Name : NELSON
+Last Name : SIQUEIRA
+First Name : nelson.siqueira
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602510
+First Name : PAULO JUNIO
+Last Name : RODRIGUES
+First Name : paulo.rodrigues
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602511
+First Name : PEDRO BASILIO
+Last Name : NETO
+First Name : pedro.neto
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602512
+First Name : PEDRO HENRIQUE
+Last Name : SILVA
+First Name : pedro.silva
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602514
+First Name : RAFAEL
+Last Name : CALIL
+First Name : rafael.calil
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201000931
+First Name : RODOLPHO
+Last Name : TAKAHASHI
+First Name : rodolpho.takahashi
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201609824
+First Name : SAULO
+Last Name : CALIXTO
+First Name : saulo.calixto
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201602517
+First Name : SOFIA
+Last Name : MORAES
+First Name : sofia.moraes
+Frequência: 
+	Aula numero : 0104
+		Presença:  F
+	Aula numero : 0508
+		Presença:  P
+
+Current Element :student
+Matrícula : 201501613
+First Name : VINICIUS
+Last Name : ALENCAR
+First Name : vinicius.alencar
+Frequência: 
+	Aula numero : 0104
+		Presença:  P
+	Aula numero : 0508
+		Presença:  P
