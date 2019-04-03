@@ -7,9 +7,12 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String args[]) throws DocumentException, IOException {
-        XMLFileManager xmlFileManager = new XMLFileManager("src/main/resources/students.xml");
+        //XMLFileManager xmlFileManager = new XMLFileManager();
         //xmlFileManager.lerArquivoXML();
         //xmlFileManager.gerarArquivoContendoDadosDoArquivoXML();
-        xmlFileManager.alterarFrequenciaNaAula0104(false);
+        //xmlFileManager.alterarFrequenciaNaAula0104(false);
+
+        JsonFileManager jsonFileManager = new JsonFileManager();
+        jsonFileManager.gerarArquivoContendoDadosDoArquivoJson();
     }
 }

@@ -16,8 +16,8 @@ public class XMLFileManager {
     private Document document;
     private Element classElement;
 
-    public XMLFileManager(String caminhoArquivoXML) throws DocumentException {
-        this.caminhoArquivoXML = caminhoArquivoXML;
+    public XMLFileManager() throws DocumentException {
+        this.caminhoArquivoXML = "src/main/resources/students.xml";
         this.saxReader = new SAXReader();
         this.arquivoXML = new File(caminhoArquivoXML);
         this.saxReader.read(this.caminhoArquivoXML);
