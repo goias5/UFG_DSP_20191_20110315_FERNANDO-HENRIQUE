@@ -1,20 +1,18 @@
-import java.util.ArrayList;
-
 /**
  * Created by aluno on 02/04/19.
  */
 public class Student {
     public String matricula;
-    public String firstName;
-    public String lastName;
-    public String nickName;
+    public String firstname;
+    public String lastname;
+    public String nickname;
     public Frequencia frequencia;
 
     public Student(String matricula, String firstName, String lastName, String nickName, Frequencia frequencia) {
         this.matricula = matricula;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.nickName = nickName;
+        this.firstname = firstName;
+        this.lastname = lastName;
+        this.nickname = nickName;
         this.frequencia = frequencia;
     }
 
@@ -29,11 +27,11 @@ public class Student {
         }
         return "Student{" +
                 "matricula=" + matricula +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", nickName='" + nickName + '\'' +
+                ", firstName='" + firstname + '\'' +
+                ", lastName='" + lastname + '\'' +
+                ", nickName='" + nickname + '\'' +
                 ", frequencia=" + frequenciaString +
-                '}';
+                '}'+'\n';
     }
 
     public String getMatricula() {
@@ -45,27 +43,27 @@ public class Student {
     }
 
     public String getFirstName() {
-        return firstName;
+        return firstname;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.firstname = firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return lastname;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        this.lastname = lastName;
     }
 
     public String getNickName() {
-        return nickName;
+        return nickname;
     }
 
     public void setNickName(String nickName) {
-        this.nickName = nickName;
+        this.nickname = nickName;
     }
 
     public Frequencia getFrequencia() {

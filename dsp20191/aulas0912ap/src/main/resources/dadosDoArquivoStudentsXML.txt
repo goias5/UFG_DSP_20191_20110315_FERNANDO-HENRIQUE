@@ -7,9 +7,9 @@ First Name : AUGUSTO
 Last Name : MOURA
 First Name : augusto.moura
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -18,9 +18,9 @@ First Name : CLEYDSON
 Last Name : JÃNIOR
 First Name : cleydson.junior
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -29,9 +29,9 @@ First Name : ERIK
 Last Name : COSTA
 First Name : erik.costa
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -40,9 +40,9 @@ First Name : ESTEVÃO
 Last Name : SILVA
 First Name : estevao.silva
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -51,9 +51,9 @@ First Name : FERNANDO
 Last Name : AFONSO
 First Name : fernando.afonso
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -62,9 +62,9 @@ First Name : FERNANDO
 Last Name : CALLATA
 First Name : fernando.callta
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -73,9 +73,9 @@ First Name : GABRIEL
 Last Name : SANTANA
 First Name : gabriel.santana
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -84,9 +84,9 @@ First Name : GABRIEL
 Last Name : MENEZES
 First Name : gabriel.menezes
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -95,9 +95,9 @@ First Name : GUSTAVO
 Last Name : BATISTA
 First Name : gustavo.batista
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -106,9 +106,9 @@ First Name : HYAGO
 Last Name : SOUZA
 First Name : hyago.souza
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -117,9 +117,9 @@ First Name : JOÃO PEDRO
 Last Name : VIEIRA
 First Name : joao.vieira
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -128,9 +128,9 @@ First Name : JOÃO PEDRO
 Last Name : PINHEIRO
 First Name : joao.pinheiro
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -139,9 +139,9 @@ First Name : JOSIMAR
 Last Name : SANTOS
 First Name : josimar.santos
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  F
 
 Current Element :student
@@ -150,9 +150,9 @@ First Name : KAYO
 Last Name : FREITAS
 First Name : kayo.freitas
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -161,9 +161,9 @@ First Name : LARISSA
 Last Name : MELO
 First Name : larissa.melo
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -172,9 +172,9 @@ First Name : LUCAS
 Last Name : SOUSA
 First Name : lucas.sousa
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -183,9 +183,9 @@ First Name : LUCAS
 Last Name : DIAS
 First Name : lucas.dias
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -194,9 +194,9 @@ First Name : MARCOS
 Last Name : PEREIRA
 First Name : marcos.pereira
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -205,9 +205,9 @@ First Name : MARCOS RAFAEL
 Last Name : SOUSA
 First Name : marcos.sousa
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -216,9 +216,9 @@ First Name : MATHEUS
 Last Name : FERNANDES
 First Name : matheus.fernandes
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  F
 
 Current Element :student
@@ -227,9 +227,9 @@ First Name : MURILLO
 Last Name : ANDRADE
 First Name : murilo.andrade
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -238,9 +238,9 @@ First Name : MURILLO
 Last Name : NUNES
 First Name : murillo.nunes
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -249,9 +249,9 @@ First Name : NELSON
 Last Name : SIQUEIRA
 First Name : nelson.siqueira
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -260,9 +260,9 @@ First Name : PAULO JUNIO
 Last Name : RODRIGUES
 First Name : paulo.rodrigues
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -271,9 +271,9 @@ First Name : PEDRO BASILIO
 Last Name : NETO
 First Name : pedro.neto
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -282,9 +282,9 @@ First Name : PEDRO HENRIQUE
 Last Name : SILVA
 First Name : pedro.silva
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -293,9 +293,9 @@ First Name : RAFAEL
 Last Name : CALIL
 First Name : rafael.calil
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -304,9 +304,9 @@ First Name : RODOLPHO
 Last Name : TAKAHASHI
 First Name : rodolpho.takahashi
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -315,9 +315,9 @@ First Name : SAULO
 Last Name : CALIXTO
 First Name : saulo.calixto
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -326,9 +326,9 @@ First Name : SOFIA
 Last Name : MORAES
 First Name : sofia.moraes
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  F
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P
 
 Current Element :student
@@ -337,7 +337,7 @@ First Name : VINICIUS
 Last Name : ALENCAR
 First Name : vinicius.alencar
 Frequência: 
-	Aula numero : 0104
+	Aulas numero : 0104
 		Presença:  P
-	Aula numero : 0508
+	Aulas numero : 0508
 		Presença:  P

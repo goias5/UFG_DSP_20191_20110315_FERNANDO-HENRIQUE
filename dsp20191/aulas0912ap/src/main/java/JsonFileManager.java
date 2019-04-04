@@ -1,12 +1,8 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Path;
-import java.util.ArrayList;
 
 /**
  * Created by aluno on 02/04/19.
@@ -34,17 +30,34 @@ public class JsonFileManager {
         return object;
     }
 
-    public void gerarArquivoContendoDadosDoArquivoJson() throws IOException {
-        Students student = fromJSON(textFileInString, Students.class);
-        System.out.println(student.getStudents().size());
-        System.out.println(student.toString());
-        //Todo(2) Fazer a classe ler corretamente do arquivo JSON, talvez não consegue por problema de formatação.
-        //Todo(3) Aí então gravar em um arquivo texto apenas os dados do arquivo JSON, conforme pedido no exercício
-
+    public static <T> void toJSON(String caminhoArquivo, T objeto) throws IOException {
+        Gson gson = new Gson();
+        String json = gson.toJson(objeto);
+        File file = new File(caminhoArquivo);
+        file.createNewFile();
+        FileWriter fileWriter = new FileWriter(file);
+        fileWriter.write(json);
+        fileWriter.close();
     }
 
-    public void alterarFrequenciaNaAula0104(File arquivoJson){
-        //Todo(4) Deve ser feito naturalmente após a leitura do arquivo JSON ser feita coretamente.
+
+    public void gerarArquivoContendoDadosDoArquivoJson() throws IOException {
+        StudentsClass student = fromJSON(textFileInString, StudentsClass.class);
+        File file = new File("src/main/resources/dadosDoArquivoStudentsJSON.txt");
+        if(!file.exists()){
+            file.createNewFile();
+        }
+        FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter( fileWriter );
+        bufferedWriter.write(student.toString());
+        bufferedWriter.close();
+        fileWriter.close();
+    }
+
+    public void alterarFrequenciaNaAula0104() throws IOException {
+        StudentsClass student = fromJSON(textFileInString, StudentsClass.class);
+        alteraAFrequenciaNoObjetoStudent(student);
+        toJSON(arquivoJson.getAbsolutePath(), student);
     }
 
     private String textFileToString() throws IOException {
@@ -60,5 +73,22 @@ public class JsonFileManager {
         String text = new String(byteVector);
         //System.out.println(text);
         return text;
+    }
+
+    private void alteraAFrequenciaNoObjetoStudent(StudentsClass student){
+        for(int i=0; i<student.getStudents().getStudent().size(); i++){
+            if(student.getStudents().getStudent().get(i).getMatricula().equals("201100315")){
+                for(int j=0; j<student.getStudents().getStudent().get(i).getFrequencia().getAulas().size(); j++){
+                    if(student.getStudents().getStudent().get(i).getFrequencia().getAulas().get(j).getNumero().equals("0104")){
+                        if(student.getStudents().getStudent().get(i).getFrequencia().getAulas().get(j).getFrequencia().equals("P")){
+                            student.getStudents().getStudent().get(i).getFrequencia().getAulas().get(j).setFrequencia("F");
+                        }
+                        else{
+                            student.getStudents().getStudent().get(i).getFrequencia().getAulas().get(j).setFrequencia("P");
+                        }
+                    }
+                }
+            }
+        }
     }
 }

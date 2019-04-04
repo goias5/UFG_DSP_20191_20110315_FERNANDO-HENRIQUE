@@ -32,7 +32,7 @@ public class Aulas {
         this.numero = numero;
     }
 
-    public String isFrequencia() {
+    public String getFrequencia() {
         return frequencia;
     }
 

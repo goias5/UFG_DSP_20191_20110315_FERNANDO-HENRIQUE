@@ -1,0 +1,31 @@
+Student{matricula=201602485, firstName='AUGUSTO', lastName='MOURA', nickName='augusto.moura', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602487, firstName='CLEYDSON', lastName='JÚNIOR', nickName='cleydson.junior', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201203663, firstName='ERIK', lastName='COSTA', nickName='erik.costa', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602489, firstName='ESTEVÃO', lastName='SILVA', nickName='estevao.silva', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201100315, firstName='FERNANDO', lastName='AFONSO', nickName='fernando.afonso', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201609821, firstName='FERNANDO', lastName='CALLATA', nickName='fernando.callta', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201503341, firstName='GABRIEL', lastName='SANTANA', nickName='gabriel.santana', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602492, firstName='GABRIEL', lastName='MENEZES', nickName='gabriel.menezes', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602493, firstName='GUSTAVO', lastName='BATISTA', nickName='gustavo.batista', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602494, firstName='HYAGO', lastName='SOUZA', nickName='hyago.souza', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602498, firstName='JOÃO PEDRO', lastName='VIEIRA', nickName='joao.vieira', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602499, firstName='JOÃO PEDRO', lastName='PINHEIRO', nickName='joao.pinheiro', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201404903, firstName='JOSIMAR', lastName='SANTOS', nickName='josimar.santos', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=F}}
+Student{matricula=201609822, firstName='KAYO', lastName='FREITAS', nickName='kayo.freitas', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201607109, firstName='LARISSA', lastName='MELO', nickName='larissa.melo', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201202273, firstName='LUCAS', lastName='SOUSA', nickName='lucas.sousa', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602502, firstName='LUCAS', lastName='DIAS', nickName='lucas.dias', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201808740, firstName='MARCOS', lastName='PEREIRA', nickName='marcos.pereira', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201607112, firstName='MARCOS RAFAEL', lastName='SOUSA', nickName='marcos.sousa', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201202279, firstName='MATHEUS', lastName='FERNANDES', nickName='matheus.fernandes', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=F}}
+Student{matricula=201602506, firstName='MURILLO', lastName='ANDRADE', nickName='murilo.andrade', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201611905, firstName='MURILLO', lastName='NUNES', nickName='murillo.nunes', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602509, firstName='NELSON', lastName='SIQUEIRA', nickName='nelson.siqueira', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602510, firstName='PAULO JUNIO', lastName='RODRIGUES', nickName='paulo.rodrigues', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602511, firstName='PEDRO BASILIO', lastName='NETO', nickName='pedro.neto', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602512, firstName='PEDRO HENRIQUE', lastName='SILVA', nickName='pedro.silva', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602514, firstName='RAFAEL', lastName='CALIL', nickName='rafael.calil', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201000931, firstName='RODOLPHO', lastName='TAKAHASHI', nickName='rodolpho.takahashi', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201609824, firstName='SAULO', lastName='CALIXTO', nickName='saulo.calixto', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201602517, firstName='SOFIA', lastName='MORAES', nickName='sofia.moraes', frequencia=Aulas{numero=0104, frequencia=F}Aulas{numero=0508, frequencia=P}}
+Student{matricula=201501613, firstName='VINICIUS', lastName='ALENCAR', nickName='vinicius.alencar', frequencia=Aulas{numero=0104, frequencia=P}Aulas{numero=0508, frequencia=P}}
