@@ -2,7 +2,10 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.Node;
+import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
+import org.dom4j.io.XMLWriter;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -42,7 +45,7 @@ public class XMLFileManager {
             List<Node> nodesFrequencia = node.selectSingleNode("frequencia").selectNodes("aulas");
             leitura = leitura.concat("\nFrequência: ");
             for (Node nodesDaFrequencia : nodesFrequencia) {
-                leitura = leitura.concat("\n\tAula numero : "
+                leitura = leitura.concat("\n\tAulas numero : "
                         + nodesDaFrequencia.valueOf("@numero"));
                 leitura = leitura.concat("\n\t\tPresença:  "
                         + nodesDaFrequencia.getText());
@@ -69,7 +72,7 @@ public class XMLFileManager {
     }
 
 
-    public void alterarFrequenciaNaAula0104 (boolean frequencia) {
+    public void alterarFrequenciaNaAula0104 () throws IOException {
         List<Node> nodes = this.document.selectNodes("/class/student" );
         for (Node node : nodes) {
             if (node.selectSingleNode("matricula").getText().equals("201100315")) {
@@ -77,18 +80,23 @@ public class XMLFileManager {
                 for (Node nodesDaFrequencia : nodesFrequencia) {
                     if (nodesDaFrequencia.valueOf("@numero").equals("0104")) {
                         Element elementoAMudar = (Element) nodesDaFrequencia;
-                        if (frequencia) {
+                        if (elementoAMudar.getText().equals("F")) {
                             elementoAMudar.setText("P");
                         } else {
-                            System.out.println("Entrou");
-                            System.out.println(elementoAMudar.getText());
                             elementoAMudar.setText("F");
-                            //TODO(1) Resolver com o professor o problema do setText que não funciona, embora está de acordo com o tutorial
                         }
+                        escreveODocumento();
                     }
                 }
             }
         }
     }
 
+    public void escreveODocumento() throws IOException {
+        OutputFormat format = OutputFormat.createPrettyPrint();
+        XMLWriter writer;
+        writer = new XMLWriter(new FileWriter(arquivoXML),format);
+        writer.write( document );
+        writer.close();
+    }
 }

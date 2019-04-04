@@ -35,12 +35,16 @@ public class JsonFileManager {
     }
 
     public void gerarArquivoContendoDadosDoArquivoJson() throws IOException {
-        Students students = fromJSON(textFileInString, Students.class);
-        System.out.println(students.toString());
+        Students student = fromJSON(textFileInString, Students.class);
+        System.out.println(student.getStudents().size());
+        System.out.println(student.toString());
+        //Todo(2) Fazer a classe ler corretamente do arquivo JSON, talvez não consegue por problema de formatação.
+        //Todo(3) Aí então gravar em um arquivo texto apenas os dados do arquivo JSON, conforme pedido no exercício
+
     }
 
     public void alterarFrequenciaNaAula0104(File arquivoJson){
-
+        //Todo(4) Deve ser feito naturalmente após a leitura do arquivo JSON ser feita coretamente.
     }
 
     private String textFileToString() throws IOException {

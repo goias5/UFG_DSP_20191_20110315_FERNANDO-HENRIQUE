@@ -1,39 +1,42 @@
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by aluno on 02/04/19.
  */
-public class Aula {
-    private int numero;
-    private boolean frequencia;
+public class Aulas {
+    public String numero;
+    @SerializedName("#text")
+    public String frequencia;
 
-    public Aula(int numero, boolean frequencia) {
+    public Aulas(String numero, String frequencia) {
         this.numero = numero;
         this.frequencia = frequencia;
     }
 
-    public Aula() {
+    public Aulas() {
     }
 
     @Override
     public String toString() {
-        return "Aula{" +
+        return "Aulas{" +
                 "numero=" + numero +
                 ", frequencia=" + frequencia +
                 '}';
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
-    public boolean isFrequencia() {
+    public String isFrequencia() {
         return frequencia;
     }
 
-    public void setFrequencia(boolean frequencia) {
+    public void setFrequencia(String frequencia) {
         this.frequencia = frequencia;
     }
 }

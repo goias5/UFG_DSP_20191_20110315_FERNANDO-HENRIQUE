@@ -10,7 +10,7 @@ public class Main {
         //XMLFileManager xmlFileManager = new XMLFileManager();
         //xmlFileManager.lerArquivoXML();
         //xmlFileManager.gerarArquivoContendoDadosDoArquivoXML();
-        //xmlFileManager.alterarFrequenciaNaAula0104(false);
+        //xmlFileManager.alterarFrequenciaNaAula0104();
 
         JsonFileManager jsonFileManager = new JsonFileManager();
         jsonFileManager.gerarArquivoContendoDadosDoArquivoJson();

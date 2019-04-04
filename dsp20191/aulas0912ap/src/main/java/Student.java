@@ -4,13 +4,13 @@ import java.util.ArrayList;
  * Created by aluno on 02/04/19.
  */
 public class Student {
-    private int matricula;
-    private String firstName;
-    private String lastName;
-    private String nickName;
-    private ArrayList<Aula> frequencia;
+    public String matricula;
+    public String firstName;
+    public String lastName;
+    public String nickName;
+    public Frequencia frequencia;
 
-    public Student(int matricula, String firstName, String lastName, String nickName, ArrayList<Aula> frequencia) {
+    public Student(String matricula, String firstName, String lastName, String nickName, Frequencia frequencia) {
         this.matricula = matricula;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -24,8 +24,8 @@ public class Student {
     @Override
     public String toString() {
         String frequenciaString = new String();
-        for(int i=0; i<frequencia.size(); i++){
-            frequenciaString = frequenciaString.concat(frequencia.get(i).toString());
+        for(int i=0; i<frequencia.getAulas().size(); i++){
+            frequenciaString = frequenciaString.concat(frequencia.getAulas().get(i).toString());
         }
         return "Student{" +
                 "matricula=" + matricula +
@@ -36,11 +36,11 @@ public class Student {
                 '}';
     }
 
-    public int getMatricula() {
+    public String getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(int matricula) {
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
@@ -68,11 +68,11 @@ public class Student {
         this.nickName = nickName;
     }
 
-    public ArrayList<Aula> getFrequencia() {
+    public Frequencia getFrequencia() {
         return frequencia;
     }
 
-    public void setFrequencia(ArrayList<Aula> frequencia) {
+    public void setFrequencia(Frequencia frequencia) {
         this.frequencia = frequencia;
     }
 }
