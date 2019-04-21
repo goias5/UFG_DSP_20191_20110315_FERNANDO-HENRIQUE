@@ -6,12 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="aulas1316.ap" />
         <module name="aulas1316ap" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="aulas1316.ap" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

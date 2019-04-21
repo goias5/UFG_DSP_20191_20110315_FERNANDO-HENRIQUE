@@ -1,13 +1,19 @@
-package persistencia;
+package persistencia.criacao;
 
 import model.Cargo;
 import model.Departamento;
 import model.Funcionario;
 import model.Lotacao;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class InstanciasParaExemplo {
+    private ArrayList<Funcionario> funcionarios;
+    private ArrayList<Cargo> cargos;
+    private ArrayList<Departamento> departamentos;
+    private ArrayList<Lotacao> lotacoes;
+
     private static final Funcionario funcionario1 = new Funcionario(1,"Jose Arantes",1);
     private static final Funcionario funcionario2 = new Funcionario(2,"Lucas Silveira",2);
     private static final Funcionario funcionario3 = new Funcionario(3,"Manoel",3);

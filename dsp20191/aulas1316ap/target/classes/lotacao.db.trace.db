@@ -1,0 +1,187 @@
+2019-04-21 03:53:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ""Funcionario"" (
+	""id""	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT[*],
+	""nome""	TEXT NOT NULL UNIQUE,
+	""matricula""	INTEGER
+);
+
+CREATE TABLE ""Departamento"" (
+	""id""	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	""nome""	TEXT
+);
+
+CREATE TABLE ""Cargo"" (
+	""id""	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	""nome""	TEXT,
+	""salario""	REAL
+);
+
+CREATE TABLE ""Lotacao"" (
+	""id""	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	""dataInicial""	DATE,
+	""dataFinal""	DATE,
+	""cargoID""	INTEGER,
+	""departamentoID""	INTEGER,
+	""funcionarioID""	INTEGER
+);"; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE "Funcionario" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT NOT NULL UNIQUE,
+	"matricula"	INTEGER
+);
+
+CREATE TABLE "Departamento" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT
+);
+
+CREATE TABLE "Cargo" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT,
+	"salario"	REAL
+);
+
+CREATE TABLE "Lotacao" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"dataInicial"	DATE,
+	"dataFinal"	DATE,
+	"cargoID"	INTEGER,
+	"departamentoID"	INTEGER,
+	"funcionarioID"	INTEGER
+); [42001-199]
+2019-04-21 03:57:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FUNCIONARIO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT[*],
+	NOME	VARCHAR NOT NULL UNIQUE,
+	MATRICULA	INT
+);
+
+CREATE TABLE DEPARTAMENTO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	NOME	VARCHAR
+);
+
+CREATE TABLE CARGO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	NOME	VARCHAR,
+	SALARIO	DOUBLE
+);
+
+CREATE TABLE LOTACAO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	DATAINICIAL	DATE,
+	DATAFINAL	DATE,
+	CARGOID	INT,
+	DEPARTAMENTOID	INT,
+	FUNCIONARIOID	INT
+); "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Funcionario (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR NOT NULL UNIQUE,
+	matricula	INT
+);
+
+CREATE TABLE Departamento (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR
+);
+
+CREATE TABLE Cargo (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR,
+	salario	DOUBLE
+);
+
+CREATE TABLE Lotacao (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	dataInicial	DATE,
+	dataFinal	DATE,
+	cargoID	INT,
+	departamentoID	INT,
+	funcionarioID	INT
+); [42001-199]
+2019-04-21 04:03:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FUNCIONARIO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT[*],
+	NOME	VARCHAR NOT NULL UNIQUE,
+	MATRICULA	INT
+);
+
+CREATE TABLE DEPARTAMENTO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	NOME	VARCHAR
+);
+
+CREATE TABLE CARGO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	NOME	VARCHAR,
+	SALARIO	DOUBLE
+);
+
+CREATE TABLE LOTACAO (
+	ID	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	DATAINICIAL	DATE,
+	DATAFINAL	DATE,
+	CARGOID	INT,
+	DEPARTAMENTOID	INT,
+	FUNCIONARIOID	INT
+); "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Funcionario (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR NOT NULL UNIQUE,
+	matricula	INT
+);
+
+CREATE TABLE Departamento (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR
+);
+
+CREATE TABLE Cargo (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nome	VARCHAR,
+	salario	DOUBLE
+);
+
+CREATE TABLE Lotacao (
+	id	INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+	dataInicial	DATE,
+	dataFinal	DATE,
+	cargoID	INT,
+	departamentoID	INT,
+	funcionarioID	INT
+); [42001-199]
+2019-04-21 04:08:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FUNCIONARIO" already exists; SQL statement:
+CREATE TABLE Funcionario (
+	id	INT PRIMARY KEY,
+	nome	VARCHAR NOT NULL,
+	matricula	INT
+); [42101-199]
+2019-04-21 04:33:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "20120618 10:34:09 AM"; SQL statement:
+INSERT INTO lotacao VALUES(1, '20120618 10:34:09 AM', '20120618 10:34:09 AM', 1, 1, 1) -- (1, '20120618 10:34:09 AM', '20120618 10:34:09 AM', 1, 1, 1) [22007-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:455)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.value.ValueDate.parse(ValueDate.java:75)
+	at org.h2.value.Value.convertToDate(Value.java:1059)
+	at org.h2.value.Value.convertTo(Value.java:774)
+	at org.h2.value.Value.convertTo(Value.java:735)
+	at org.h2.table.Column.convert(Column.java:199)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:164)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:46)
+	at org.h2.command.CommandList.update(CommandList.java:63)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at persistencia.criacao.InicializadorDoBancoDeDados.inserirDadosFicticios(InicializadorDoBancoDeDados.java:26)
+	at model.Main.main(Main.java:19)
+Caused by: java.lang.NumberFormatException: For input string: "20120618 10:34:0"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:369)
+	at org.h2.value.ValueDate.parse(ValueDate.java:73)
+	... 13 more

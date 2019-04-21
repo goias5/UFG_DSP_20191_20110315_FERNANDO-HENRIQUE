@@ -1,4 +1,4 @@
-package persistencia;
+package persistencia.conexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +15,7 @@ public class CriaConexao {
     public static final String JDBC_DRIVER = "org.h2.Driver";
 
     //Database file URL
-    public static final String DB_FILE_URL = "jdbc:h2:~/desktop/ufg_dsp_20191_20110315_FERNANDO-HENRIQUE-master/dsp20191/aulas1316ap/src/main/java/persistencia/bancoDeDados/lotacao.db";
+    public static final String DB_FILE_URL = "jdbc:h2:~/desktop/ufg_dsp_20191_20110315_FERNANDO-HENRIQUE/dsp20191/aulas1316ap/src/main/resources/lotacao.db";
 
     //Database memory URL
     public static final String DB_MEMORY_URL = "jdbc:h2:mem:testdb";

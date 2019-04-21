@@ -1,4 +1,6 @@
-package persistencia;
+package persistencia.conexao;
+
+import persistencia.conexao.CriaConexao;
 
 import java.sql.Connection;
 import java.sql.Statement;
