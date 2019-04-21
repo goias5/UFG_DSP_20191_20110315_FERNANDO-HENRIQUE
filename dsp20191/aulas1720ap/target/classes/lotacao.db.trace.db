@@ -185,82 +185,40 @@ Caused by: java.lang.NumberFormatException: For input string: "20120618 10:34:0"
 	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:369)
 	at org.h2.value.ValueDate.parse(ValueDate.java:73)
 	... 13 more
-2019-04-21 10:44:01 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CARGO SET NOME = JUAN MARTIN[*] DEL POTRO WHERE ID = 2 "; SQL statement:
-UPDATE CARGO SET NOME = Juan Martin Del Potro WHERE ID = 2 [42000-199]
-2019-04-21 10:46:10 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Juan Martin Del Potro" not found; SQL statement:
-UPDATE CARGO SET NOME = "Juan Martin Del Potro" WHERE ID = 2 [42122-199]
+2019-04-21 11:40:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-199]
+2019-04-21 11:44:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT FROM CARGO WHERE[*] NOME = 'faxineiro' "; expected "., (, USE, AS, RIGHT, LEFT, FULL, INNER, JOIN, CROSS, NATURAL, ,, SELECT"; SQL statement:
+Select FROM Cargo WHERE nome = 'faxineiro' [42001-199]
+2019-04-21 11:49:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-199]
+2019-04-21 12:26:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "IDCARGO" not found; SQL statement:
+SELECT * FROM Lotacao WHERE idCargo = 1 AND idDepartamento = 2; [42122-199]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
 	at org.h2.message.DbException.get(DbException.java:205)
 	at org.h2.message.DbException.get(DbException.java:181)
 	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:176)
 	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:158)
-	at org.h2.command.dml.Update.prepare(Update.java:252)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:205)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:133)
+	at org.h2.command.dml.Select.prepare(Select.java:1248)
 	at org.h2.command.Parser.prepareCommand(Parser.java:689)
 	at org.h2.engine.Session.prepareLocal(Session.java:627)
 	at org.h2.engine.Session.prepareCommand(Session.java:565)
 	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
-	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
-	at persistencia.alteracao.AlteraCargo.alteraNome(AlteraCargo.java:17)
-	at model.Main.main(Main.java:8)
-2019-04-21 10:47:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Juan Martin Del Potro" not found; SQL statement:
-UPDATE CARGO SET NOME = "Juan Martin Del Potro" WHERE ID = 2; [42122-199]
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at persistencia.alteracao.Alterador.alteraSalarioCargoDepartamento(Alterador.java:64)
+	at model.Main.main(Main.java:10)
+2019-04-21 12:28:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "idFuncionario" not found [42122-199]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
 	at org.h2.message.DbException.get(DbException.java:205)
 	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:176)
-	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:158)
-	at org.h2.command.dml.Update.prepare(Update.java:252)
-	at org.h2.command.Parser.prepareCommand(Parser.java:689)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
-	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
-	at persistencia.alteracao.AlteraCargo.alteraNome(AlteraCargo.java:17)
-	at model.Main.main(Main.java:8)
-2019-04-21 10:49:39 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Juan Martin Del Potro" not found; SQL statement:
-UPDATE CARGO
- SET NOME = "Juan Martin Del Potro"
-WHERE ID = 2; [42122-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
-	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:176)
-	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:158)
-	at org.h2.command.dml.Update.prepare(Update.java:252)
-	at org.h2.command.Parser.prepareCommand(Parser.java:689)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
-	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
-	at persistencia.alteracao.AlteraCargo.alteraNome(AlteraCargo.java:19)
-	at model.Main.main(Main.java:8)
-2019-04-21 10:51:48 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Juan Martin Del Potro" not found; SQL statement:
-UPDATE Cargo
-SET nome = "Juan Martin Del Potro"
-WHERE id = 2; [42122-199]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
-	at org.h2.message.DbException.get(DbException.java:205)
-	at org.h2.message.DbException.get(DbException.java:181)
-	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:176)
-	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:158)
-	at org.h2.command.dml.Update.prepare(Update.java:252)
-	at org.h2.command.Parser.prepareCommand(Parser.java:689)
-	at org.h2.engine.Session.prepareLocal(Session.java:627)
-	at org.h2.engine.Session.prepareCommand(Session.java:565)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
-	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
-	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
-	at persistencia.alteracao.AlteraCargo.alteraNome(AlteraCargo.java:19)
-	at model.Main.main(Main.java:8)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3188)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at persistencia.alteracao.Alterador.alteraSalarioCargoDepartamento(Alterador.java:71)
+	at model.Main.main(Main.java:10)

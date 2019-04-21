@@ -1,11 +1,9 @@
 package persistencia.criacao;
 
-import persistencia.bancoDeDados.LeitorArquivoSQL;
+import persistencia.utilitarios.LeitorArquivoSQL;
 import persistencia.conexao.CriaConexao;
 
-import java.io.IOException;
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 public class InicializadorDoBancoDeDados {
@@ -16,6 +14,14 @@ public class InicializadorDoBancoDeDados {
         CriaConexao criaConexao = new CriaConexao();
         this.connection = criaConexao.getConnection("file");
         this.statement = connection.createStatement();
+    }
+
+    public Connection getConnection() {
+        return connection;
+    }
+
+    public Statement getStatement() {
+        return statement;
     }
 
     public void criaTabelas() {

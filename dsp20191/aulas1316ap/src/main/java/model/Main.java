@@ -17,5 +17,6 @@ public class Main {
         InicializadorDoBancoDeDados inicializadorDoBancoDeDados = new InicializadorDoBancoDeDados();
         inicializadorDoBancoDeDados.criaTabelas();
         inicializadorDoBancoDeDados.inserirDadosFicticios();
+        inicializadorDoBancoDeDados.alteraTabelaLotacao();
     }
 }
