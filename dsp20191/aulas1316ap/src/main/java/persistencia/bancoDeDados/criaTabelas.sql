@@ -1,0 +1,25 @@
+CREATE TABLE "Funcionario" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT NOT NULL UNIQUE,
+	"matricula"	INTEGER
+);
+
+CREATE TABLE "Departamento" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT
+);
+
+CREATE TABLE "Cargo" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"nome"	TEXT,
+	"salario"	REAL
+);
+
+CREATE TABLE "Lotacao" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"dataInicial"	DATE,
+	"dataFinal"	DATE,
+	"cargoID"	INTEGER,
+	"departamentoID"	INTEGER,
+	"funcionarioID"	INTEGER
+);

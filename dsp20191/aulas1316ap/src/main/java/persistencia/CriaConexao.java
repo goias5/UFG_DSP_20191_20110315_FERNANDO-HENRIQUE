@@ -15,7 +15,7 @@ public class CriaConexao {
     public static final String JDBC_DRIVER = "org.h2.Driver";
 
     //Database file URL
-    public static final String DB_FILE_URL = "jdbc:h2:~/aluno";
+    public static final String DB_FILE_URL = "jdbc:h2:~/desktop/ufg_dsp_20191_20110315_FERNANDO-HENRIQUE-master/dsp20191/aulas1316ap/src/main/java/persistencia/bancoDeDados/lotacao.db";
 
     //Database memory URL
     public static final String DB_MEMORY_URL = "jdbc:h2:mem:testdb";
@@ -26,14 +26,14 @@ public class CriaConexao {
 
     private Connection conn = null;
 
-    public Connection getConnection(String connectionType) throws InvalidDataBaseTypeException {
+    public Connection getConnection(String connectionType) throws Exception {
         try {
             //STEP 1: Register JDBC Driver
             Class.forName(JDBC_DRIVER);
 
             //STEP 2: Open a connection
             if (!connectionType.equalsIgnoreCase("file") && !connectionType.equalsIgnoreCase("memory")){
-                throw new InvalidDataBaseTypeException("O tipo do banco de dados deve ser [file] ou [memory].");
+                throw new Exception("O tipo do banco de dados deve ser [file] ou [memory].");
             }else if (connectionType.equalsIgnoreCase("file")) {
                 conn = DriverManager.getConnection(DB_FILE_URL, USER, PASS);
             }else{
