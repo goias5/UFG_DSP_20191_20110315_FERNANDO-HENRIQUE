@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="aulas1316ap" />
-        <module name="aulas1720.ap" />
+        <module name="aulas2528jpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aulas2528jpa" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
